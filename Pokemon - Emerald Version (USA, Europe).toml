@@ -1,6 +1,6 @@
 [General]
 ApplicationVersion = '''0.5.6'''
-FreeSpaceSearch = '''E3F180'''
+FreeSpaceSearch = '''E3FE00'''
 FreeSpaceBuffer = '''040'''
 NextExportID = '''0'''
 ShowRawIVByteForTrainer = False
@@ -5439,7 +5439,7 @@ DefaultHash = '''E74F20C6'''
    '''ChooseStarter''',
    '''StartWallyTutorialBattle''',
    '''ChangePokemonNickname''',
-   '''ChoosePartyMon''',# Selected index will be stored in var4. var4=1 for lead pokemon, var4=6 for last pokemon, var4=7 for cancel. Requires `waitstate` after.
+   '''ChoosePartyMon''',
    '''GetFirstFreePokeblockSlot''',
    '''DoBerryBlending''',
    '''PlayRoulette''',
@@ -5606,7 +5606,7 @@ DefaultHash = '''E74F20C6'''
    '''SetRoute119Weather''',
    '''SetRoute123Weather''',
    '''GetContestMultiplayerId''',
-   '''GetPartyMonSpecies''',# Read party index from var4, return species.
+   '''GetPartyMonSpecies''',
    '''IsSelectedMonEgg''',
    '''TryInitBattleTowerAwardManObjectEvent''',
    '''MoveOutOfSecretBaseFromOutside''',
@@ -6471,8 +6471,8 @@ Destination = '''data.items.stats'''
 
 [[GotoShortcut]]
 Name = '''Maps'''
-Image = '''data.maps.banks/0/maps/19/map/0/layout/0/blockmap/'''
-Destination = '''maps.bank0.ROUTE 104.0-19'''
+Image = '''data.maps.banks/3/maps/3/map/0/layout/0/blockmap/'''
+Destination = '''maps.bank3.DEWFORD TOWN.3-3'''
 
 #################################
 [[TableGroup]]
