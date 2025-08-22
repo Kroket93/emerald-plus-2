@@ -1,6 +1,6 @@
 [General]
 ApplicationVersion = '''0.5.6'''
-FreeSpaceSearch = '''E44D80'''
+FreeSpaceSearch = '''E45000'''
 FreeSpaceBuffer = '''040'''
 NextExportID = '''0'''
 ShowRawIVByteForTrainer = False
@@ -6471,8 +6471,8 @@ Destination = '''data.items.stats'''
 
 [[GotoShortcut]]
 Name = '''Maps'''
-Image = '''data.maps.banks/0/maps/33/map/0/layout/0/blockmap/'''
-Destination = '''maps.bank0.ROUTE 118.0-33'''
+Image = '''data.maps.banks/0/maps/34/map/0/layout/0/blockmap/'''
+Destination = '''maps.bank0.ROUTE 119.0-34'''
 
 #################################
 [[TableGroup]]
